@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 93px;
+  display: flex;
+  background-color: #24292e;
+}
+nav .navbar-logo {
+  margin-left: 50px;
+  font-size: 38px;
+  margin-top: 16px;
+}
+nav .navbar-logo i {
+  position: absolute;
+  margin-top: 10px;
+  color: white;
+}
+nav .navbar-logo input {
+  margin-left: 50px;
+  height: 35px;
+  width: 272px;
+  background-color: #24292e;
+  border: 1px solid rgba(255, 255, 255, 0.537);
+  border-radius: 8px;
+}
+nav .navbar-link {
+  margin-left: 30px;
+}
+nav .navbar-link ul {
+  margin-top: 24px;
+  display: flex;
+}
+nav .navbar-link ul li {
+  margin: 10px;
+  list-style: none;
+}
+nav .navbar-link ul li a {
+  font-size: 23px;
+  text-decoration: none;
+  color: white;
+}
+nav .navbar-link ul li a:hover {
+  color: gray;
+}
+nav .navbar-icon {
+  margin-top: 30px;
+  margin-left: 400px;
+}
+nav .navbar-icon a {
+  font-size: 28px;
+  margin: 6px;
+  color: white;
+}
+
+section {
+  margin-left: 170px;
+  display: flex;
+}
+section .container {
+  display: flex;
+  flex-direction: column;
+}
+section .container h1 {
+  margin-top: 15px;
+}
+section .container .btn {
+  height: 30px;
+  background-color: rgba(223, 223, 223, 0.247);
+  border-color: rgba(0, 0, 0, 0.229);
+}
+section .container .btn1 {
+  height: 21px;
+  margin-top: 10px;
+  background-color: rgba(223, 223, 223, 0.247);
+  border-color: rgba(0, 0, 0, 0.229);
+}
+section .container p {
+  color: rgba(128, 125, 125, 0.992);
+}
+section .container2 {
+  margin-top: 50px;
+  margin-left: 100px;
+}
+section .container2 .links {
+  color: #24292e;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 25px;
+}
+section .container2 .links:hover {
+  padding-bottom: 8px;
+  border-bottom: 3px solid tomato;
+  transition: all 0.1s ease-in;
+}
+section .container2 hr {
+  margin-top: 8px;
+  margin-left: 24px;
+}
+section .container2 .borders {
+  margin-left: 25px;
+  margin-top: 65px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+section .container2 .borders .brdr1 {
+  width: 330px;
+  height: 80px;
+  border: 2px solid rgba(94, 94, 94, 0.763);
+}
+section .container2 .borders .brdr2 {
+  width: 330px;
+  height: 80px;
+  border: 2px solid rgba(94, 94, 94, 0.763);
+}
+section .container2 .borders .brdr3 {
+  width: 330px;
+  margin-top: 19px;
+  height: 80px;
+  border: 2px solid rgba(94, 94, 94, 0.763);
+}
+section .container2 .borders .brdr4 {
+  width: 330px;
+  margin-top: 19px;
+  height: 80px;
+  border: 2px solid rgba(94, 94, 94, 0.763);
+}
+section .container2 .borders a {
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+section .container2 .borders p {
+  margin-top: 10px;
+  margin-left: 12px;
+}
+
+button {
+  cursor: pointer;
+}
+
+#linkr {
+  padding-bottom: 8px;
+  border-bottom: 3px solid tomato;
+}/*# sourceMappingURL=stil.css.map */
